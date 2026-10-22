@@ -1,0 +1,21 @@
+# Local files and secrets
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+*.pyc
+.venv/
+
+# Private source material and development artifacts
+.cangjie/
+work/
+outputs/
+snapshots/
+transcripts/
+transcript_*.md
+*.srt
+*.vtt
+*.log
+BUILD_MANIFEST.json
